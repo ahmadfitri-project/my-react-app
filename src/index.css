@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #172033;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f8fafc, #e8efff);
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.project-preview {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.corporate-preview {
+  background: #e5ebf4;
+  color: #243b61;
+}
+
+.property-preview {
+  background: #e5eee8;
+  color: #28533e;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .min-vh-75 {
+    min-height: auto;
+  }
+}
